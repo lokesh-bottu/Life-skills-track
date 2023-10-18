@@ -39,9 +39,9 @@ For Eg. if the message is How are you then each word will be having a seq number
 - Transport Layer also performs Flow control. For example if the receiving speed of the receiver is less than the sending speed of sender then this comes into picture and control the speed from the both the sides and vice versa.
 - This also performs Error control in case of missing data. 
 This consists of 2 protocols 
-1. TCP (Transmission Control Protocol) used for connection oriented communication
+#### 1. TCP (Transmission Control Protocol) used for connection oriented communication
 - In this case the missing data can be retrieved because this tells whether the data is completely received or not using the checksum process, so as a result this works slower.
-2. UDP (User Datagram Protol) used for connection less communication.
+#### 2. UDP (User Datagram Protol) used for connection less communication.
 - In this case the feedback is not provided and hence no missing data can be retrieved and hence this also works faster
 
 
