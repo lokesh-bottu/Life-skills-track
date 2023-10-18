@@ -13,12 +13,12 @@ Before the OSI model is introduced the data is transferred using LAN cable, but 
 - Basically this model is divided into 7 layers which includes Application Layer, Presentation Layer, Session Layer, Transport Layer, Network Layer, Datalink Layer, and Physical Layer.
 - Initially the  data is transferred from Application to Physical Layer one by one and then it is sent to the user through internet.
 
-### Application Layer
+### 1.Application Layer
 
 - Application Layer provides services for application which works by internet, with the help of application protocols like HTTPS Protocols, NFS, IRC etc.. to do web surfing. 
 - These protocols collectives make an Application Layer, and are used to File transfer, email etc.
 
-### Presentation Layer
+### 2.Presentation Layer
 
 - For the Presentaion Layer the data is received from Application layer. The data is stored in form of numbers and characters. But as the computer doesn't understands the human language so it is converted to binary language.
 - Presentation Layer reduces the number of bits used by the data which makes the data transmission faster. Also the data is encrypted from the senders end and decrypted at the receiver's end and for this Secure Sockets Layer is used. In simple words the bigger the data the more time it takes.
